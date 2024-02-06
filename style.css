@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*
+{
+    font-family: "League Spartan"; 
+    display: flex; 
+    justify-content: center;  
+    margin: 0; 
+    padding: 0;   
+}
+
+body 
+{ 
+    width: 1440px;  
+    margin: 0;
+    overflow: hidden;
+} 
+
+.background-svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="584" height="362" viewBox="0 0 584 362"%3E%3Cdefs%3E%3ClinearGradient x1="100%" y1="69.212%" x2="9.399%" y2="32.183%" id="a"%3E%3Cstop stop-color="%238A4389" stop-opacity="0" offset="0%25"/%3E%3Cstop stop-color="%23512051" offset="100%25"/%3E%3Cstop stop-color="%23512051" offset="100%25"/%3E%3Cstop stop-color="%23512051" offset="100%25"/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d="M0 362c40.022-82.8 115.736-135.154 227.141-157.064 167.108-32.864 103.85-66.012 185.949-131.796C467.823 29.284 524.793 4.904 584 0v362H0z" transform="rotate(180 292 181)" fill="url(%23a)" fill-rule="evenodd" opacity="0.05"/%3E%3C/svg%3E');
+    background-position: top left; /* Placer l'arrière-plan en haut à gauche */
+    background-size: auto 100%; /* Ajuster la taille de l'arrière-plan selon la hauteur de l'élément parent */
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  
+#owner
+{
+    display: flex; 
+    flex-direction: column;  
+    justify-content:space-evenly; 
+    align-items: center;
+    width: 100%; 
+    height: 600px;  
+} 
+
+#one
+{
+    display: flex; 
+    flex-direction: row;
+} 
+
+#onesnederone
+{
+    flex-direction: column; 
+    margin-left: -8%; 
+}  
+
+.hard 
+{
+    color: hsl(300, 43%, 22%); 
+    font-weight: 700;  
+    font-size: 40px; 
+    width: 300px;
+} 
+
+.easy
+{
+    color: hsl(303, 10%, 53%); 
+    width: 400px; 
+    line-height: 19px; 
+    margin-top: 5%;
+}
+
+button
+{
+    margin: 8px; 
+    height: 40px; 
+    width: 370px; 
+    align-items: center; 
+    justify-content:space-evenly ;
+    border-radius: 5px; 
+    border-style: none; 
+    background-color: hsl(300, 24%, 96%); 
+} 
+
+.same
+{
+    color:  hsl(300, 43%, 22%); 
+    font-weight: 700;  
+ }
+
+#onesendertwo img
+{ 
+    margin: 5px;  
+}
+
+#prblm1
+{
+   margin-left: 4%; 
+} 
+
+#numb2
+{
+    margin-left: 10%;
+} 
+
+#numb3
+{
+    margin-left: 20%;
+}
+ 
+#onesendertwo 
+{
+    flex-direction: column; 
+    margin-left: 23%;
+} 
+
+#lol 
+{
+    flex-direction: column; 
+    background-color: hsl(300, 43%, 22%); 
+    width: 750px;  
+    padding: 3%;
+    margin: 1%; 
+    height: 130px; 
+    border-radius: 5px;
+} 
+
+#kok 
+{
+    flex-direction: column; 
+    background-color: hsl(300, 43%, 22%);
+    width: 750px;
+    margin: 1%; 
+    margin-bottom: -3%;
+    padding: 3%;
+    height: 130px; 
+    border-radius: 5px;
+} 
+
+#dod
+{
+    flex-direction: column; 
+    background-color: hsl(300, 43%, 22%); 
+    width: 750px;
+    margin: 1%;
+    padding: 3%; 
+    margin-bottom: -6%;
+    height: 130px; 
+    border-radius: 5px;
+}  
+
+#ff 
+{
+    flex-direction: column;
+} 
+
+#uu 
+{
+    flex-direction: column;
+} 
+
+#ee 
+{
+    flex-direction: column;
+}  
+
+#two img 
+{
+    border-radius: 100%; 
+    width: 35px; 
+    height: 35px;   
+    margin-left:-50%;  
+}
+
+#two
+{   
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
+    justify-content: center;
+    width: 1000px; 
+    margin-bottom: -5%; 
+    margin-top: -5%;
+} 
+
+.j 
+{
+    color: hsl(0, 0%, 100%); 
+    margin-right: -50%; 
+    font-size: 14px;
+} 
+
+.g
+{
+    color: hsl(0, 0%, 100%);    
+    line-height: 20px;
+} 
+
+.k 
+{
+    color: hsl(333, 80%, 67%); 
+    margin-right: -55%;
+    font-size: 14px; 
+    margin-top: 3px;
+}  
+
+#lol .g
+{
+    width:280px; 
+}
+
+#kok .g 
+{
+    width:270px;
+} 
+
+#dod .g 
+{
+    width: 270px;
+}
+ 
+#poo 
+{
+    margin-top: 1%; 
+    margin-bottom: 10%;
+}
